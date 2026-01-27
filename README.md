@@ -4,5 +4,5 @@ This repository contains Unraid templates for various community applications dev
 
 ## Available Templates
 
-- **Firefly-III-Toolbox**: A comprehensive toolbox for managing your Firefly III instance. [GitHub Repository](https://github.com/xenolphthalein/firefly-toolbox)
+- **Toolbox for Firefly III**: A comprehensive toolbox for managing your Firefly III instance. [GitHub Repository](https://github.com/xenolphthalein/toolbox-for-firefly-iii)
 

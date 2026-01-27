@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Firefly-III-Toolbox</Name>
-  <Repository>ghcr.io/xenolphthalein/firefly-toolbox:latest</Repository>
-  <Registry>https://github.com/xenolphthalein/firefly-toolbox/pkgs/container/firefly-toolbox</Registry>
+  <Name>Toolbox-For-Firefly III</Name>
+  <Repository>ghcr.io/xenolphthalein/toolbox-for-firefly-iii:latest</Repository>
+  <Registry>https://github.com/xenolphthalein/toolbox-for-firefly-iii/pkgs/container/toolbox-for-firefly-iii</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project>https://github.com/xenolphthalein/firefly-toolbox</Project>
-  <Overview>Web automation suite for FireflyIII. Includes tools for duplicate detection, subscription analysis, AI-powered categorization, bank imports and transaction enrichment via Amazon/PayPal exports.</Overview>
+  <Project>https://github.com/xenolphthalein/toolbox-for-firefly-iii</Project>
+  <Overview>Web automation suite for Firefly III. Includes tools for duplicate detection, subscription analysis, AI-powered categorization, bank imports and transaction enrichment via Amazon/PayPal exports.</Overview>
   <Category>AI: Productivity: Tools: Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:3000]/</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/Xenolphthalein/firefly-toolbox/refs/heads/main/public/logo_light_mode.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Xenolphthalein/toolbox-for-firefly-iii/refs/heads/main/public/logo_light_mode.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
@@ -21,8 +21,8 @@
   <DonateText/>
   <DonateLink/>
   <Requires>FireflyIII</Requires>
-  <Config Name="Firefly-III URL" Target="FIREFLY_API_URL" Default="" Mode="" Description="The URL to your Firefly-III instance." Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Firefly-III API Token" Target="FIREFLY_API_TOKEN" Default="" Mode="" Description="A personal access token to access Firefly-III. Visit https://docs.firefly-iii.org/how-to/firefly-iii/features/api/ to learn how to create an API token." Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="Firefly III URL" Target="FIREFLY_API_URL" Default="" Mode="" Description="The URL to your Firefly III instance." Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Firefly III API Token" Target="FIREFLY_API_TOKEN" Default="" Mode="" Description="A personal access token to access Firefly III. Visit https://docs.firefly-iii.org/how-to/firefly-iii/features/api/ to learn how to create an API token." Type="Variable" Display="always" Required="true" Mask="true"/>
   <Config Name="PORT" Target="3000" Default="3000" Mode="tcp" Description="The host port on which you want to access the toolbox on." Type="Port" Display="always" Required="true" Mask="false">3000</Config>
   <Config Name="Application URL" Target="APP_URL" Default="" Mode="" Description="The URL this application will be accessed on, e.g. http://192.168.1.10:3000 or https://ff-toolbox.example.com" Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Additonal CORS Origins" Target="CORS_ORIGINS" Default="" Mode="" Description="Allows you to set additonal URLs to access the applications on, e.g. http://192.168.1.10:3000" Type="Variable" Display="advanced" Required="false" Mask="false"/>
@@ -33,8 +33,8 @@
   <Config Name="OIDC Authentication Issuer URL" Target="AUTH_OIDC_ISSUER_URL" Default="" Mode="" Description="The URL to your auth provider for this application, e.g. https://auth.example.com/application/o/firefly-toolbox/" Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="OIDC Authentication Client ID" Target="AUTH_OIDC_CLIENT_ID" Default="" Mode="" Description="The client id from your SSO provider for this application." Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="OIDC Authentication Client Secret" Target="AUTH_OIDC_CLIENT_SECRET" Default="" Mode="" Description="The client secret from the SSO Provider for this application." Type="Variable" Display="advanced" Required="false" Mask="true"/>
-  <Config Name="Firefly-III OAuth Authentication Client ID" Target="AUTH_FIREFLY_CLIENT_ID" Default="" Mode="" Description="The client id from the created Firefly-III OAuth Client." Type="Variable" Display="always" Required="false" Mask="false"/>
-  <Config Name="Firefly-III OAuth Authentication Client Secret" Target="AUTH_FIREFLY_CLIENT_SECRET" Default="" Mode="" Description="The client secret from the created Firefly-III OAuth Client." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Firefly III OAuth Authentication Client ID" Target="AUTH_FIREFLY_CLIENT_ID" Default="" Mode="" Description="The client id from the created Firefly III OAuth Client." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Firefly III OAuth Authentication Client Secret" Target="AUTH_FIREFLY_CLIENT_SECRET" Default="" Mode="" Description="The client secret from the created Firefly III OAuth Client." Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="AI Provider" Target="AI_PROVIDER" Default="" Mode="" Description="Can be openai or ollama. You will have to configure those providers separately." Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="OpenAI API Key" Target="OPENAI_API_KEY" Default="" Mode="" Description="The API Key to use for the OpenAI provider." Type="Variable" Display="always" Required="false" Mask="true"/>
   <Config Name="OpenAI API URL" Target="OPENAI_API_URL" Default="https://api.openai.com/v1" Mode="" Description="The OpenAI API URL or another OpenAI compatible API URL." Type="Variable" Display="advanced" Required="false" Mask="false">https://api.openai.com/v1</Config>
