@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/xenolphthalein/unraid-templates/main/profile.png</Icon>
+  <Profile>
+    Creating docker images for my applications.
+  </Profile>
+  <DonateLink></DonateLink>
+  <DonateText></DonateText>
+</Maintainer>
