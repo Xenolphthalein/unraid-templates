@@ -7,13 +7,13 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/196855-support-toolbox-for-firefly-iii/</Support>
   <Project>https://github.com/xenolphthalein/toolbox-for-firefly-iii</Project>
   <Overview>Web automation suite for Firefly III. Includes tools for duplicate detection, subscription analysis, AI-powered categorization, bank imports and transaction enrichment via Amazon/PayPal exports.</Overview>
   <Category>AI: Productivity: Tools: Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:3000]/</WebUI>
-  <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/Xenolphthalein/toolbox-for-firefly-iii/refs/heads/main/public/logo_light_mode.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/xenolphthalein/unraid-templates/main/xenolphthalein/toolbox-for-firefly-iii.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/xenolphthalein/toolbox-for-firefly-iii/refs/heads/main/public/logo_light_mode.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
